@@ -139,8 +139,8 @@ export default function Home() {
        {/* Added 'z-10' to ensure it stays above the background images */}
       <footer className="relative z-10 w-full py-6 mt-12 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900"> {/* Added background to ensure it covers images */}
         <p>
-          &copy; {new Date().getFullYear()} P-ai Data Science Club - Claremont
-          Colleges. All Rights Reserved.
+          &copy; {new Date().getFullYear()} P-ai - Claremont
+          Colleges.
         </p>
       </footer>
     </div>
