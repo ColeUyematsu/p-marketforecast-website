@@ -21,7 +21,7 @@ export default function Home() {
       {/* Background Bear Image */}
       {/* Hidden on small screens (md:block), positioned absolutely, low opacity, behind content */}
       <div className="absolute top-1/4 left-0 -z-10 hidden md:block opacity-5 dark:opacity-10 pointer-events-none">
-        <img
+        <Image
             src="/bear.png" // Make sure this path is correct
             alt="Bear outline background"
             width={400} // Adjust size as needed
@@ -34,7 +34,7 @@ export default function Home() {
       {/* Background Bull Image */}
       {/* Hidden on small screens (md:block), positioned absolutely, low opacity, behind content */}
       <div className="absolute top-1/4 right-0 -z-10 hidden md:block opacity-5 dark:opacity-10 pointer-events-none">
-         <img
+         <Image
             src="/bull.png" // *** Make sure you have bull.png in /public ***
             alt="Bull outline background"
             width={400} // Adjust size as needed
