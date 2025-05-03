@@ -134,7 +134,7 @@ export default function LSTMPage() {
           {/* Call-to-Action Buttons */}
           <section className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <a
-              className="inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-medium text-blue-700 dark:text-blue-300 bg-blue-100 hover:bg-blue-200 dark:bg-gray-700 dark:hover:bg-gray-600 border border-transparent dark:border-gray-600 transition-colors shadow-sm w-full sm:w-auto"
+              className="inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors shadow-sm w-full sm:w-auto"
               href="https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html"
               target="_blank"
               rel="noopener noreferrer"
